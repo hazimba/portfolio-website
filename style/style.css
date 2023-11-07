@@ -1,0 +1,206 @@
+body{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 99vw;
+}
+
+.container-1{
+    background-color: #29333d;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    height: 13vh;
+    border-radius: 60px 0px 0px 0px;
+}
+
+.container-1-title{
+    color: #ced6de;
+    font-weight: 500;
+    /* flex: 1; */
+    margin: 0 25px;
+    font-size: 55px;
+}
+
+.container-1-button > button{
+    margin: 0 30px;
+    gap: 10px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: 1px solid #f3f5f7;
+    cursor: pointer;
+    background-color: #f3f5f7;
+    font-size: medium;
+}
+
+.mode-button:hover{
+    background-color: #ced6de;
+    color: #181f25;
+}
+
+.container-2{
+    border: 1px #29333d solid;
+    display: flex;
+    align-items: center;
+    background-color:#f3f5f7;
+    height: 75vh;
+    position: relative;
+}
+
+.container-2-left{
+    margin-left: 100px;
+    position: absolute;
+    left: 0px;
+    height: 45vh;
+    width: 55vh;
+}
+
+.container-2-left-title{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.container-2-left-name > h1{
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.container-2-left-emptybox{
+    height: 350px;
+    border: 1px solid #181f25;
+    border-radius: 0px 50px 50px 50px;
+    margin-bottom: 40px;
+    width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    font-size: x-large;
+    font-weight: 200;
+    text-align: justify;
+    background-color: #f3f5f7;
+}
+
+.container-2-button{
+    width: 650px;
+}
+
+.container-2-button > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+    margin-right: 0px;
+}
+
+.container-2-button > ul > li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.container-2-button > ul > li > button{
+    padding: 5px 10px;
+    border-radius: 0 10px 10px 10px;
+}
+
+.container-2-button > ul > li > button:hover{
+    background-color: #29333d;
+    color: #f3f5f7;
+}
+
+.container-2-button > ul > li > a{
+    text-decoration: none;
+    color: #29333d;
+}
+
+.container-2-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2-right-emptybox{
+    position: absolute;
+    right: 50px;
+    width: 700px;
+    margin-left: 200px;
+    padding-top: 85px;
+    padding-bottom: 140px;
+    padding-left: 250px;
+    padding-right: 50px;
+    text-align: justify;
+    background-color: #ced4da;
+    border-radius: 60px 0px 60px 60px;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.container-2-image > img{
+    height: 550px;
+    width: 550px;
+    border-radius: 9999px 9999px 0px 9999px;
+    object-fit: cover; 
+    position: absolute;
+    border: 60px solid #ced4da;
+    top: 130px;
+    right: 800px;
+    z-index: 10;
+}
+
+.highlight{
+    color: #181f25;
+    width: fit-content;
+}
+
+.highlight:hover{
+    color: #ced4da;
+}
+
+.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #29333d;
+    height: 10vh;
+    border-radius: 0 0 60px 60px;
+}
+
+.container-3-ul{
+    margin: 30px 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-right: 0px;
+    font: size 2px;
+}
+
+.container-3-ul > li{
+    margin: 0 20px;
+    border: none;
+    list-style-type: none;
+    border-radius: 3px;
+    padding: 4px 6px;
+    margin: 0px 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+.container-3-ul > li > a{
+    color: #ced6de;
+    text-decoration: none;
+}
+
+.container-3-ul > li > a:hover{
+    color: #f3f5f7;
+    font-weight: 400;
+}
+
+.resume{
+    height: 10px;
+    width: 10px;
+}
